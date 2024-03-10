@@ -1,0 +1,53 @@
+*{
+    font-family: "Roboto", sans-serif;
+    
+}
+header{
+    width: auto;
+    background-color: #03A63C;
+    width: auto;
+    height: 48px;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    align-items: center; /* Centra verticalmente los botones */
+}
+.btnPrincipal{
+    background-color: #F20505;
+    height: 32px;
+    width: auto;
+    border-radius: 12px;
+}
+.btnAvances{
+    background-color: #F20505;
+    height: 32px;
+    width: auto;
+    border-radius: 12px;
+    margin-left: 8px;
+}
+.btnAvances:hover{
+    background-color: #f26868;
+} 
+.btnPrincipal:hover{
+      background-color: #f26868;
+}
+footer{
+    background-color: #03A63C;
+    height: 80px;
+    width: auto;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+}
+.btnPrincipal{
+    display: inline;
+}
+.btnAvances{
+    display: inline;
+}

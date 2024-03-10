@@ -1,0 +1,46 @@
+*{
+    font-family: "Roboto", sans-serif;
+    
+}
+header{
+    background-color: #F25922;
+    height: 28px;
+    width: auto;
+    height: 48px;
+    padding: 16px;
+
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    align-items: center; /* Centra verticalmente los botones */
+}
+.btnPrincipal{
+    background-color: #F20505;
+    height: 32px;
+    width: auto;
+    border-radius: 12px;
+}
+.btnAprendiendo{
+    background-color: #F20505;
+    height: 32px;
+    width: auto;
+    border-radius: 12px;
+    margin-left: 8px;
+}
+.btnAprendiendo:hover{
+    background-color: #f26868;
+} 
+.btnPrincipal:hover{
+      background-color: #f26868;
+}
+
+footer{
+    background-color: #F25922;
+    height: 80px;
+    width: auto;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    justify-content: center;
+}
